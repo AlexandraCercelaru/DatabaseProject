@@ -1,0 +1,60 @@
+body {
+    background-color: #99ccff;
+}
+
+.my-5{
+    /*justify-content: center;*/
+    width: 600px;
+    height: fit-content;
+    /*height: 800px;*/
+}
+
+/*.mb-4{*/
+/*    !*width: 500px;*!*/
+/*}*/
+
+.label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+}
+
+.input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+
+}
+.btn{
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.messages{
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+
+.success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
